@@ -1,0 +1,80 @@
+@font-face {
+font-family: rajdhaniRegular;
+  src: url('Fonts/Rajdhani/Rajdhani-Regular.ttf');
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background-image: url('../Images/Background2.jpg');
+font-family: rajdhaniRegular;
+color: white
+}
+
+.header {
+  text-align: center;
+}
+
+.tom {
+  text-align: center;
+}
+
+.tom img {
+  width: 740px;
+  height: auto;
+}
+
+.hel {
+  text-align: center;
+}
+
+.mara {
+  text-align: center;
+}
+
+.mara img {
+  width: 740px;
+  height: auto;
+}
+
+#navbar {
+padding: 0px;
+  margin: 0px;
+  height: 80px;
+  width: 100%;
+  background-color: #121212;
+
+}
+.nav-list {
+  position: absolute;
+}
+.nav-item {
+  padding: 20px;
+  display: inline-block;
+}
+.nav-item:hover {
+  transition: .5s;
+  border-bottom: 2px solid white;
+}
+.nav-link {
+  color: #858585;
+  font-size: 16px;
+  font-family: rajdhaniRegular;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: lightgray;
+  transition: .5s;
+}
+
+.tom {
+  margin: 10px;
+}
+
+.hel {
+  margin: 10px;
+}
+
+.mara {
+  margin: 10px;
+}

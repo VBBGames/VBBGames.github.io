@@ -1,0 +1,85 @@
+@font-face {
+font-family: rajdhaniRegular;
+  src: url('Fonts/Rajdhani/Rajdhani-Regular.ttf');
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: rajdhaniRegular;
+  color: white;
+  background-image: url('../Images/Background2.jpg');
+}
+
+.header {
+text-align: center;
+}
+
+.normalmode p {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+}
+
+.normalmode h2 {
+  width: 250px;
+  height: 10px;
+  text-align: center;
+}
+
+.hardcore p {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+}
+
+.hardcore h2 {
+  width: 250px;
+  height: 10px;
+  text-align: center;
+}
+
+.killrun p {
+  width: 250px;
+  height: 10px;
+  text-align: center;
+}
+
+.side {
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  background-image: url('../Images/side.png'); /*The image is from https://ghostrunnergame.com/ */
+  background-size: contain;
+}
+
+#navbar {
+padding: 0px;
+  margin: 0px;
+  height: 80px;
+  width: 100%;
+  background-color: #121212;
+
+}
+.nav-list {
+  position: absolute;
+}
+.nav-item {
+  padding: 20px;
+  display: inline-block;
+}
+.nav-item:hover {
+  transition: .5s;
+  border-bottom: 2px solid white;
+}
+.nav-link {
+  color: #858585;
+  font-size: 16px;
+  font-family: rajdhaniRegular;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: lightgray;
+  transition: .5s;
+}
